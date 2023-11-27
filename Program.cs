@@ -16,16 +16,16 @@ namespace L16_multiples
             int minNumberOfCheck = 100;
             int maxNumberOfCheck = 1000;
             int countOfMultipleNumbers = 0;
-            int N = random.Next(minNumber, maxNumber + 1);
+            int someNumber = random.Next(minNumber, maxNumber + 1);
 
-            for (int i = 0; i < maxNumberOfCheck; i += N)
+            for (int i = 0; i < maxNumberOfCheck; i += someNumber)
             {
                 if (i >= minNumberOfCheck)
                 {
                     ++countOfMultipleNumbers;
                 }
             }
-            Console.WriteLine($"Количество трехзначных чисел кратных {N}, составляет {countOfMultipleNumbers}\n");
+            Console.WriteLine($"Количество трехзначных чисел кратных {someNumber}, составляет {countOfMultipleNumbers}\n");
         }
     }
 }
