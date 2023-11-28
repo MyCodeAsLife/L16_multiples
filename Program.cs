@@ -24,7 +24,7 @@ namespace L16_multiples
                     ++countOfMultipleNumbers;
             }
 
-            Console.WriteLine($"Количество трехзначных чисел кратных {N}, составляет {countOfMultipleNumbers}\n");
+            Console.WriteLine($"Количество трехзначных чисел кратных {someNumber}, составляет {countOfMultipleNumbers}\n");
         }
     }
 }
