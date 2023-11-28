@@ -23,9 +23,8 @@ namespace L16_multiples
                 if (i >= minNumberOfCheck)
                 {
                     ++countOfMultipleNumbers;
-                }
             }
-            Console.WriteLine($"Количество трехзначных чисел кратных {someNumber}, составляет {countOfMultipleNumbers}\n");
+            Console.WriteLine($"Количество трехзначных чисел кратных {N}, составляет {countOfMultipleNumbers}\n");
         }
     }
 }
